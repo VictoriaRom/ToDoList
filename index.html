@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+<!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<!-- CSS FILE -->
+    <link rel="stylesheet" href="css/style.css">
+<!-- METADATA -->
+    <meta name="description" content="Linktree" />
+    <meta name="keywords" content="winterhack, fullstack, escueladevrock, programadora, coder, organize, todolist" />
+    <meta name="author" content="Victoria Romero" />
+    <meta name="copyright" content="Devrock 2023" />
+<!-- ROBOTS -->
+    <meta name="robots" content="index" />
+    <meta name="robots" content="noindex" />
+    <meta name="robots" content="follow" />
+    <meta name="robots" content="nofollow" />
+<!-- FAVICON -->
+    <link rel="icon" type="image" sizes="33X33" href="img/1.png">
+<!-- META FACEBOOK -->
+    <meta property="og:title" content="Victoria - ToDo List">
+    <meta property="og:description" content="Victoria Romero's ToDo List"">
+    <meta property="og:type" content="ToDo List"">
+    <meta property="og:image" content="https://VictoriaRom.github.io/img/icon.png">
+    <meta property="og:url" content="https://VictoriaRom.github.io">
+<!-- META TWITTER -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Victoria - ToDo List"">
+    <meta property="twitter:description" content="Victoria Romero's ToDo List"">
+    <meta property="twitter:type" content="Mobile Landing Page">
+    <meta property="twitter:image" content="https://VictoriaRom.github.io/img/icon.png">
+    <meta property="twitter:url" content="https://VictoriaRom.github.io">
+</head>
+<body>
+<section>
+    <div class="first" id="first">
+        <h1>You don't have any pending tasks yet!</h1>
+        <img class="act-check" src="img/no-task.webp" alt="act-check">
+        <button id="btn-add">ADD</button>
+        </div>
+
+        <div class="second" id="second">
+            <h1>Add new task</h1>
+            <form action="" id="form">
+                <input type="text" name="title" id="title" value="">
+                    <br>
+                    <button id="select" type="button">Select an image</button>
+                    <br>
+                    <div id="ImgList" class="d-none">
+                        <ul id="ListImage" class="container">
+                            <li class="img">
+                                <img src="img/break1.png" alt="img1">
+                            </li>
+                            <li class="img">
+                                <img src="img/break2.png" alt="img2">
+                            </li>
+                            <li class="img">
+                                <img src="img/break3.png" alt="img3">
+                            </li>
+                            <li class="img">
+                                <img src="img/person1.png" alt="img4">
+                            </li>
+                            <li class="img">
+                                <img src="img/person2.png" alt="img5">
+                            </li>
+                            <li class="img">
+                                <img src="img/person3.png" alt="img6">
+                            </li>
+                            <li class="img">
+                                <img src="img/study1.png" alt="img7">
+                            </li>
+                            <li class="img">
+                                <img src="img/study2.png" alt="img8">
+                            </li>
+                            <li class="img">
+                                <img src="img/study3.png" alt="img9">
+                            </li>
+                            <li class="img">
+                                <img src="img/work1.png" alt="img10">
+                            </li>
+                            <li class="img">
+                                <img src="img/work2.png" alt="img11">
+                            </li>
+                            <li class="img">
+                                <img src="img/work3.png" alt="img12">
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <img src="" alt="" id="select-img" class="d-none">
+                    </div>
+                    <br>
+                    <p #days>In how many days do you want me to remind you?</p>
+                    <select id="selectdays">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="15">15</option>
+                        <option value="30">30</option>
+                        </select>  
+                        <br>
+                        <button type="submit" id="submit">Add</button>
+                </form>
+        </div>
+
+        <div class="third" id="third">
+            <h1 id="pending">Pending Tasks</h1>
+            <div id="act_show">
+                <ul class="listado" id="listado">
+                <li></li>
+            </ul>
+            </div>
+
+            <button id="btn-add2">Add a new task</button> 
+        </div>
+        
+    </section>
+    <footer>
+        <!-- MICROFORMATOS
+        <div itemscope itemtype="https://schema.org/Person">
+            <hr>
+            <p>Copy <span itemprop="funder">©Victoria Romero</span> | EscuelaDevRock</p>
+            <p class="hide"><a itemprop="hasMap" href="https://goo.gl/maps/CLzkJcFLkz6Ef76f6">Buenos Aires, Argentina</a></p>
+            </div>
+    </div>-->
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
