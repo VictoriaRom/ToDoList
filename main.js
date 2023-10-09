@@ -18,11 +18,16 @@ let acts = JSON.parse(localStorage.getItem('acts')) || []
 let listado = document.querySelector("#listado")
 let pending = document.getElementById("pending")
 
+
+
+
+
 const getActs = () => {
 
     listado.innerHTML = ""
     
 
+    
 
     //Para el fondo de colores según cuanto falta
     acts.forEach((act, index) => {
@@ -57,7 +62,7 @@ const getActs = () => {
                 <img src="${act.imgsrc}"
                 alt="${act.imgtxt}"></img>
                 <h3>${act.title}</h3>
-                <div><p>Hacer en ${time_left } días.</p></div>
+                <div><p>${time_left } days left. Hurry up!</p></div>
             </li>`
                 
 
