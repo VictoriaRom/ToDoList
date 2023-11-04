@@ -1,4 +1,4 @@
-## TodoList
+## ToDo List
 TodoList es una aplicación web simple que te permite agregar y gestionar tareas y recordatorios. Podes añadir actividades, definir una imagen para cada tarea y especificar cuántos días faltan para la fecha de recordatorio.
 
 ## Funcionalidades
